@@ -9,6 +9,7 @@ public class MomoModel {
  public String requestId ;
  public String requestType ;
  public String amount;
+ //
  public String partnerUserId;
  public String orderType;
  public String transId;
