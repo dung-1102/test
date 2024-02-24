@@ -153,6 +153,7 @@ public class AdminController {
 
 	@GetMapping("/dashboard-orders/{page}")
 	public String DashboardOrderPageView(@PathVariable int page, Model model) {
+		
 		User admin = (User) session.getAttribute("admin");
 		if (admin == null) {
 			return "redirect:/signin-admin";
