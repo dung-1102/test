@@ -36,7 +36,7 @@
 	<div class="offcanvas-menu-wrapper">
 		<div class="offcanvas__option">
 			<div class="offcanvas__links">
-				<a th:if="${session.acc == null}" th:href="@{/signin}">Sign in</a> <a
+				<a th:if="${session.acc == null}" th:href="@{/signin}">Đăng Nhập</a> <a
 					th:if="${session.acc != null}" th:text="${session.acc.user_Name}"
 					style="color: white;"></a> <a th:if="${session.acc != null}"
 					th:href="@{/signout}">Sign out</a><a href="#">FAQs</a>
